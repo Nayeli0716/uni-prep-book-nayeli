@@ -1,0 +1,65 @@
+#title{
+  text-align: center
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+#body{
+  background-color: rgb(25, 92, 92);
+  margin: 2em;
+}
+
+#pic{
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#title{
+  font-family:'Baloo Da 2', cursive;
+  color: white;
+}
+#name{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 500px;
+  text-align: center
+}
+#quote{
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: rgb(101, 216, 224);
+  font-weight: 200px;
+  text-align: center
+}
+#superlative{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 200px;
+  text-align: center;
+}
+#clicker{
+  display: block;
+  margin-left: auto;
+  marging-right: auto;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+}
+#next{
+  background-color: rgb(31, 209, 203);
+  font-size: 20px;
+  font-family: 'Comic Neue', cursive;
+  
+}
+#back{
+  background-color: rgb(31, 209, 203);
+  font-size: 20px;
+  font-family: 'Comic Neue', cursive;
+}
+
